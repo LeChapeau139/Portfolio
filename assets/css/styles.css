@@ -277,6 +277,7 @@ h4 {
 
 .text-right {
     display: inline-block;
+    font-weight: bold;
 }
 
 /* ----------------------CARTE DES PROJETS---------------------------- */
