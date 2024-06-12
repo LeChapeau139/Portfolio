@@ -11,7 +11,7 @@
     <div id="particles-js"></div>
 
     <nav>
-        <div class="semi-nav">
+        <div id="semi-nav" class="semi-nav">
             <div class="logo">
                 <a href="assets/CV_DELCHIAPPO_Quentin.pdf" target="_blank"><img  src="assets/cv.png" alt="Logo Gauche"></a>
             </div>
@@ -34,6 +34,20 @@
     <section id="title-bio">
         <h1>Qui suis-je ?</h1>
         <hr>
+    </section>
+
+    <section id="sec-bio">
+        <div class="photoperso" id="photoperso">
+            <img src="assets/projet/bob.jpg">
+            <p>Marseillais de 21ans, un vrai produit du sud, avé l'accent !<br><br>
+                Voyager c'est le top, mais quand l'anglais n'est pas votre fort, rester en France c'est bien aussi, alors je découvre le monde petit à petit<br><br>
+                <a href="#title-interet" target="_blank">Découvrez en plus dans la parie "Centres d'intérêt"</a>
+                <br><br>
+                Qu'est ce qui me représente le plus ? De la motivation, de la motivation et de la motivation.<br><br>
+                Pas mal non ? 
+            </p>
+        </div>
+        
     </section>
 
     <section id="title-timeline">
@@ -89,6 +103,8 @@
         </div>
     </section>
 
+<!-- -----------------COMPÉTENCES--------------------------- -->
+
     <section id="title-competences">
         <h1>Mes Compétences</h1>
         <hr>
@@ -111,6 +127,18 @@
                     <span class="centered-content">
                         <img src="assets/skills/dhcp.png" class="image-left">
                         <span class="text-right">DHCP</span>
+                    </span>
+                    <span class="centered-content">
+                        <img src="assets/skills/cable.png" class="image-left">
+                        <span class="text-right">OSPF | BGP | MP-BGP | EIGRP </span>
+                    </span>
+                    <span class="centered-content">
+                        <img src="assets/skills/pdt.png" class="image-left">
+                        <span class="text-right">STP | SNMP | EtherChannel</span>
+                    </span>
+                    <span class="centered-content">
+                        <img src="assets/skills/securite.png" class="image-left">
+                        <span class="text-right">Firewall | ZBF | SSL | VPN (GRE,IPSEC,MPLS) | ACL | VLANs | </span>
                     </span>
                 </div>
             </div>
@@ -217,7 +245,7 @@
         
     </section>
 
-
+<!-- -----------------PROJET--------------------------- -->
 
     <section id="title-projet">
         <h1>Mes projets</h1>
@@ -305,7 +333,7 @@
                     <span>ChadBurn</span>
                     <span>CI/CD</span>
                 </div>
-                <h3>Automatisation de script</h3>
+                <h3>Script d'automatisation</h3>
                 <p id="date">Jun 2024 - Jun 2024</p>
                 <p id="description">L'objectif était de créer des tâches planifiées afin de simplifier nos intéraction après des manipulations. Le fait de devoir reprendre à la main...</p>
             </div>
@@ -334,14 +362,15 @@
         
     </section>
 
+<!-- -----------------CENTRE D'INTERETS--------------------------- -->
+
     <section id="title-interet">
         <h1>Mes centres d'intérêts</h1>
         <hr>
     </section>
 
-    <section id="interet">
+    <!-- <section id="interet">
         <div class="slider">
-            <!-- list Items -->
             <div class="list">
                 <div class="item active">
                     <img src="assets/interet/voyage/lisbonne.jpg">
@@ -386,12 +415,12 @@
                     </div>
                 </div>
             </div>
-            <!-- button arrows -->
+
             <div class="arrows">
                 <button id="prev"><</button>
                 <button id="next">></button>
             </div>
-            <!-- thumbnail -->
+
             <div class="thumbnail">
                 <div class="item active">
                     <img src="assets/interet/voyage/lisbonne.jpg">
@@ -416,8 +445,42 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section id="sec-interet">
+        <div class="world-map">
+            <img src="assets/interet/map-ping.png" alt="map-ping"/>
+            <div class="pin new-york">
+                <span>New York</span>
+            </div>
+            <div class="pin amsterdam">
+                <span>Amsterdam</span>
+            </div>
+            <div class="pin lanzarote">
+                <span>Lanzarote</span>
+            </div>
+            <div class="pin lisbonne">
+                <span>Lisbonne</span>
+            </div>
+            <div class="pin dublin">
+                <span>Dublin</span>
+            </div>
+        </div>
+        
+        <div class="photo-vac">
+            <img src="assets/interet/newyork.jpg">
+            <img src="assets/interet/lanzarote1.webp">
+            <img src="assets/interet/amsterdam1.webp">
+            <img src="assets/interet/newyork.jpg">
+            <img src="assets/interet/newyork.jpg">
+            <img src="assets/interet/newyork.jpg">
+            <img src="assets/interet/newyork.jpg">
+            <img src="assets/interet/newyork.jpg">
+        </div>
     </section>
-    
+
+<!-- -----------------CONTACT--------------------------- -->
+
     <section id="title-contact">
         <h1>Contact</h1>
         <hr>
@@ -428,9 +491,17 @@
         <a href="https://github.com/LeChapeau139" target="_blank"><img src="assets/projet/github.png" alt="git"></a>
     </div>
 
+    <div class="remonte">
+        <a href="#semi-nav" target="_blank" id="remonte"><img src="assets/projet/haut.png" alt="git"></a>
+    </div>
+
+    <!-- Fond à particule -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="assets/js/particles.js"></script>
+    <!-- Caroussel -->
     <script src="assets/js/app.js"></script>
+    <!-- Animation -->
     <script src="assets/js/script.js"></script>
+
 </body>
 </html>
